@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/my-script.js"></script>
+</head>
+<body>
+    <section>
+       
+        <div class="section1">
+            <p>
+                1.Запросить у пользователя его возраст и определить, кем он является: ребенком (0–2), подростком (12–18), взрослым (18_60) или пенсионером (60– ...).
+            </p>
+            <input type="text" id="ageNumber" name="name">
+            <button onclick="age();">Сколько вам лет?</button>
+            <p id="yearAnswer"></p>
+        </div>
+    </section>
+
+    <section>
+       
+        <div class="section1">
+            <p>
+                2.Запросить у пользователя число от 0 до 9 и вывести ему спецсимвол, который расположен на этой клавише (1–!, 2–@, 3–# и т. д).
+            </p>
+            <input type="text" id="specNumber" name="name">
+            <button onclick="spec();">Напише число</button>
+            <p id="specAnswer"></p>
+        </div>
+    </section>
+
+    <section>
+       
+        <div class="section1">
+            <p>
+                3.Запросить у пользователя трехзначное число и проверить, есть ли в нем одинаковые цифры.
+            </p>
+            <input type="text" id="three-igitNumber" name="name">
+            <button onclick="three();">Трехзначное число</button>
+            <p id="threeAnswer"></p>
+        </div>
+    </section>
+
+    <section>
+       
+        <div class="section1">
+            <p>
+                4.Запросить у пользователя год и проверить, високосный он или нет. Високосный год либо кратен 400, либо кратен 4 и при этом не кратен 100.
+            </p>
+            <input type="text" id="YearOfBirth" name="name">
+            <button onclick="YearOf();">Год рождения</button>
+            <p id="Birth"></p>
+        </div>
+    </section>
+<style>
+    body{
+        background-color: mediumpurple;
+    }
+    section{
+        margin-bottom: 5px;
+    }
+    .section1{
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px 40px;
+        background-color: mediumseagreen;
+        height: 150px;
+    }
+</style>
+</body>
+</html>
